@@ -1,0 +1,11 @@
+* text=auto
+
+# 二进制资源保持原样
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.ico binary
+
+# 脚本统一使用 CRLF（Windows 环境）
+*.ps1 text eol=crlf
+*.bat text eol=crlf

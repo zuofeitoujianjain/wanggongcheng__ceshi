@@ -1,0 +1,54 @@
+// Element Plus 表单轻奢化：去除圆角描边，改用底部细线
+.el-form-item {
+  margin-bottom: 1.75rem;
+}
+
+.el-input__wrapper,
+.el-select__wrapper {
+  border-radius: 0;
+  background: transparent;
+  box-shadow: inset 0 -1px 0 var(--hairline) !important;
+
+  &:hover,
+  &.is-focused {
+    box-shadow: inset 0 -1px 0 var(--gold) !important;
+  }
+}
+
+.el-textarea__inner {
+  border: 0;
+  border-bottom: 1px solid var(--hairline);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none !important;
+}
+
+.el-form-item__label {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.el-select-dropdown__item.is-selected {
+  color: var(--gold);
+}
+
+.el-message,
+.el-select-dropdown,
+.el-popper {
+  border-radius: 0 !important;
+}
+
+.el-backtop {
+  border: 1px solid var(--gold);
+  background: #fff;
+  color: var(--gold-deep);
+  box-shadow: 0 6px 18px rgba(23, 20, 15, 0.12);
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+
+  &:hover {
+    background: var(--gold);
+    color: #fff;
+  }
+}

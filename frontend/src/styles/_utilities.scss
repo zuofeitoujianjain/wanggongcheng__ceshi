@@ -1,0 +1,111 @@
+.container {
+  width: min(1200px, 92%);
+  margin-inline: auto;
+}
+
+.kicker {
+  margin: 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.section {
+  padding: 6.5rem 0;
+}
+
+.section--sand {
+  background: var(--sand);
+}
+
+.section--ivory {
+  background: var(--sand-deep);
+}
+
+.section--ink {
+  background: var(--ink);
+  color: var(--ivory);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.95rem 2.2rem;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.875rem;
+  letter-spacing: 0.22em;
+  cursor: pointer;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+
+  &:hover {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: #fff;
+  }
+}
+
+.btn--solid {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--ivory);
+
+  &:hover {
+    background: var(--gold);
+    border-color: var(--gold);
+  }
+}
+
+.btn--light {
+  border-color: rgba(251, 248, 242, 0.55);
+  color: var(--ivory);
+
+  &:hover {
+    background: var(--ivory);
+    border-color: var(--ivory);
+    color: var(--ink);
+  }
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 1px solid var(--gold);
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--gold);
+}
+
+// 页面切换过渡（Vue Router Transition）
+.page-enter-active,
+.page-leave-active {
+  transition:
+    opacity 0.28s ease,
+    transform 0.28s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-6px);
+}
