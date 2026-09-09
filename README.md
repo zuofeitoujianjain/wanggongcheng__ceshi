@@ -99,7 +99,8 @@ cd ..
 启动后：
 
 - 前台：http://127.0.0.1:5173
-- 后台：http://127.0.0.1:8000/admin（SimpleUI，登录后可在“联系表单”查看访客提交）（账号：zuofei 密码：zuofei123）
+- 后台：http://127.0.0.1:8000/admin（SimpleUI，登录后可在“联系表单”查看访客提交）
+- （账号：zuofei 密码：zuofei123）
 - API：http://127.0.0.1:8000/api/contact/
 
 ## 目录结构
