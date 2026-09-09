@@ -36,13 +36,13 @@
   <br/>
   <sub><b>⑤ 联系我们</b>：合作流程、8 字段留言表单（联系人 / 电话 / 公司 / 项目类型 / 数量 / 城市 / 预算 / 需求），提交后后台可查</sub>
 </div>
-
+ <br/>
 <div align="center">
   <img src="屏幕截图 2026-09-09 105700.png" alt="Django" width="720"/>
   <br/>
   <sub><b>后台</b>：Django后台页面展示</sub>
 </div>
-
+ <br/>
 <div align="center">
   <img src="屏幕截图 2026-09-09 110252.png" alt="Django" width="720"/>
   <br/>
@@ -99,7 +99,7 @@ cd ..
 启动后：
 
 - 前台：http://127.0.0.1:5173
-- 后台：http://127.0.0.1:8000/admin（SimpleUI，登录后可在“联系表单”查看访客提交）
+- 后台：http://127.0.0.1:8000/admin（SimpleUI，登录后可在“联系表单”查看访客提交）（账号：zuofei 密码：zuofei123）
 - API：http://127.0.0.1:8000/api/contact/
 
 ## 目录结构
