@@ -7,32 +7,32 @@
 ## 页面展示
 
 <div align="center">
-  <img src="docs/screenshots/home.png" alt="首页" width="720"/>
+  <img src="home.png" alt="首页" width="720"/>
 
   <br/>
   <sub><b>① 首页</b>：品牌主视觉、核心品类导览、精选产品、工厂实力、服务承诺、客户声音</sub>
 </div>
 
 <div align="center">
-  <img src="docs/screenshots/products.png" alt="产品中心" width="720"/>
+  <img src="products.png" alt="产品中心" width="720"/>
   <br/>
   <sub><b>② 产品中心</b>：客厅 / 餐厅 / 卧室 / 书房分类筛选，12 款产品，图片点击放大预览</sub>
 </div>
 
 <div align="center">
-  <img src="docs/screenshots/factory.png" alt="走进工厂" width="720"/>
+  <img src="factory.png" alt="走进工厂" width="720"/>
   <br/>
   <sub><b>③ 走进工厂</b>：制造实力、车间实景、六道工艺流程、设备产线、环保责任、认证资质</sub>
 </div>
 
 <div align="center">
-  <img src="docs/screenshots/custom.png" alt="高端定制" width="720"/>
+  <img src="custom.png" alt="高端定制" width="720"/>
   <br/>
   <sub><b>④ 高端定制</b>：五步定制流程、案例展示、可选配置、可提交的定制需求表单</sub>
 </div>
 
 <div align="center">
-  <img src="docs/screenshots/contact.png" alt="联系我们" width="720"/>
+  <img src="contact.png" alt="联系我们" width="720"/>
   <br/>
   <sub><b>⑤ 联系我们</b>：合作流程、8 字段留言表单（联系人 / 电话 / 公司 / 项目类型 / 数量 / 城市 / 预算 / 需求），提交后后台可查</sub>
 </div>
