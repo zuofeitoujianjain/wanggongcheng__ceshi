@@ -37,6 +37,17 @@
   <sub><b>⑤ 联系我们</b>：合作流程、8 字段留言表单（联系人 / 电话 / 公司 / 项目类型 / 数量 / 城市 / 预算 / 需求），提交后后台可查</sub>
 </div>
 
+<div align="center">
+  <img src="屏幕截图 2026-09-09 105700.png" alt="Django" width="720"/>
+  <br/>
+  <sub><b>后台</b>：Django后台页面展示</sub>
+</div>
+
+<div align="center">
+  <img src="屏幕截图 2026-09-09 110252.png" alt="Django" width="720"/>
+  <br/>
+  <sub><b>后台</b>：MySql数据库页面展示</sub>
+</div>
 ---
 
 ## 功能特性
