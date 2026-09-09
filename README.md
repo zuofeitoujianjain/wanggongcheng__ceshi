@@ -8,7 +8,6 @@
 
 <div align="center">
   <img src="docs/screenshots/home.png" alt="首页" width="720"/>
-  <img width="1440" height="900" alt="home" src="https://github.com/user-attachments/assets/136c4305-3d2f-4b37-bd40-68950f0ec33f" />
 
   <br/>
   <sub><b>① 首页</b>：品牌主视觉、核心品类导览、精选产品、工厂实力、服务承诺、客户声音</sub>
